@@ -21,7 +21,7 @@ function App() {
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
       }}>
-          <MessengerCustomerChat
+      <MessengerCustomerChat
     pageId="100088973316932"
     appId="6745968608763034"/>
       

@@ -10,6 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -19,8 +20,11 @@ function App() {
       style={{
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
-      }}
-    >
+      }}>
+          <MessengerCustomerChat
+    pageId="100088973316932"
+    appId="6745968608763034"/>
+      
       <Navbar />
       <Intro />
       <Services />

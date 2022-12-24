@@ -22,7 +22,7 @@ function App() {
         color: darkMode ? "white" : "",
       }}>
       <MessengerCustomerChat
-    pageId="100088973316932"
+    pageId="100088834186081"
     appId="6745968608763034"/>
       
       <Navbar />

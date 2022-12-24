@@ -11,6 +11,11 @@ import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import MessengerCustomerChat from 'react-messenger-customer-chat'
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
